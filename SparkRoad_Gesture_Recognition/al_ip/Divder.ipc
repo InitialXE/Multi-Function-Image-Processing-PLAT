@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DIVIDERConfig>
+    <DIVIDER_OPTIONS>
+        <deno_str>UNSIGNED</deno_str>
+        <denom_width>24</denom_width>
+        <level_nu>26</level_nu>
+        <model_select>single</model_select>
+        <nu_str>UNSIGNED</nu_str>
+        <numer_width>24</numer_width>
+    </DIVIDER_OPTIONS>
+    <GeneralConfig>
+        <Device>EG4S20BG256</Device>
+        <Type>EG_LOGIC_SEQ_DIV</Type>
+        <Version>1.1</Version>
+        <create_VHDL>false</create_VHDL>
+        <inst>Divider</inst>
+    </GeneralConfig>
+    <GeneratedFiles>
+        <GateVerilog Enable="true">Divder_gate.v</GateVerilog>
+    </GeneratedFiles>
+</DIVIDERConfig>

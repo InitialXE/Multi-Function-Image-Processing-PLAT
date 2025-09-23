@@ -1,0 +1,388 @@
+<chipwatcher project_name="ov2640_sdram" bit_file="ov2640_sdram_Runs/phy_1/ov2640_sdram.bit" bid_file="ov2640_sdram_Runs/phy_1/ov2640_sdram_inst.bid" chip_name="EG4S20BG256">
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="Sdram_Control_4Port/CTRL_CLK" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="128"/>
+		<signal_vec>
+			<data_nets>
+				<net name="u_image_process/Hu_1[0]"/>
+				<net name="u_image_process/Hu_1[10]"/>
+				<net name="u_image_process/Hu_1[11]"/>
+				<net name="u_image_process/Hu_1[12]"/>
+				<net name="u_image_process/Hu_1[13]"/>
+				<net name="u_image_process/Hu_1[14]"/>
+				<net name="u_image_process/Hu_1[15]"/>
+				<net name="u_image_process/Hu_1[16]"/>
+				<net name="u_image_process/Hu_1[17]"/>
+				<net name="u_image_process/Hu_1[18]"/>
+				<net name="u_image_process/Hu_1[19]"/>
+				<net name="u_image_process/Hu_1[1]"/>
+				<net name="u_image_process/Hu_1[20]"/>
+				<net name="u_image_process/Hu_1[21]"/>
+				<net name="u_image_process/Hu_1[22]"/>
+				<net name="u_image_process/Hu_1[23]"/>
+				<net name="u_image_process/Hu_1[24]"/>
+				<net name="u_image_process/Hu_1[25]"/>
+				<net name="u_image_process/Hu_1[26]"/>
+				<net name="u_image_process/Hu_1[27]"/>
+				<net name="u_image_process/Hu_1[28]"/>
+				<net name="u_image_process/Hu_1[29]"/>
+				<net name="u_image_process/Hu_1[2]"/>
+				<net name="u_image_process/Hu_1[30]"/>
+				<net name="u_image_process/Hu_1[31]"/>
+				<net name="u_image_process/Hu_1[3]"/>
+				<net name="u_image_process/Hu_1[4]"/>
+				<net name="u_image_process/Hu_1[5]"/>
+				<net name="u_image_process/Hu_1[6]"/>
+				<net name="u_image_process/Hu_1[7]"/>
+				<net name="u_image_process/Hu_1[8]"/>
+				<net name="u_image_process/Hu_1[9]"/>
+				<net name="u_image_process/finger_data_Aera[0]"/>
+				<net name="u_image_process/finger_data_Aera[10]"/>
+				<net name="u_image_process/finger_data_Aera[11]"/>
+				<net name="u_image_process/finger_data_Aera[12]"/>
+				<net name="u_image_process/finger_data_Aera[13]"/>
+				<net name="u_image_process/finger_data_Aera[14]"/>
+				<net name="u_image_process/finger_data_Aera[15]"/>
+				<net name="u_image_process/finger_data_Aera[16]"/>
+				<net name="u_image_process/finger_data_Aera[17]"/>
+				<net name="u_image_process/finger_data_Aera[18]"/>
+				<net name="u_image_process/finger_data_Aera[19]"/>
+				<net name="u_image_process/finger_data_Aera[1]"/>
+				<net name="u_image_process/finger_data_Aera[20]"/>
+				<net name="u_image_process/finger_data_Aera[21]"/>
+				<net name="u_image_process/finger_data_Aera[22]"/>
+				<net name="u_image_process/finger_data_Aera[23]"/>
+				<net name="u_image_process/finger_data_Aera[2]"/>
+				<net name="u_image_process/finger_data_Aera[3]"/>
+				<net name="u_image_process/finger_data_Aera[4]"/>
+				<net name="u_image_process/finger_data_Aera[5]"/>
+				<net name="u_image_process/finger_data_Aera[6]"/>
+				<net name="u_image_process/finger_data_Aera[7]"/>
+				<net name="u_image_process/finger_data_Aera[8]"/>
+				<net name="u_image_process/finger_data_Aera[9]"/>
+				<net name="u_image_process/u_Gesture_detch/area[0]"/>
+				<net name="u_image_process/u_Gesture_detch/area[10]"/>
+				<net name="u_image_process/u_Gesture_detch/area[11]"/>
+				<net name="u_image_process/u_Gesture_detch/area[12]"/>
+				<net name="u_image_process/u_Gesture_detch/area[13]"/>
+				<net name="u_image_process/u_Gesture_detch/area[14]"/>
+				<net name="u_image_process/u_Gesture_detch/area[15]"/>
+				<net name="u_image_process/u_Gesture_detch/area[16]"/>
+				<net name="u_image_process/u_Gesture_detch/area[17]"/>
+				<net name="u_image_process/u_Gesture_detch/area[18]"/>
+				<net name="u_image_process/u_Gesture_detch/area[19]"/>
+				<net name="u_image_process/u_Gesture_detch/area[1]"/>
+				<net name="u_image_process/u_Gesture_detch/area[2]"/>
+				<net name="u_image_process/u_Gesture_detch/area[3]"/>
+				<net name="u_image_process/u_Gesture_detch/area[4]"/>
+				<net name="u_image_process/u_Gesture_detch/area[5]"/>
+				<net name="u_image_process/u_Gesture_detch/area[6]"/>
+				<net name="u_image_process/u_Gesture_detch/area[7]"/>
+				<net name="u_image_process/u_Gesture_detch/area[8]"/>
+				<net name="u_image_process/u_Gesture_detch/area[9]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[0]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[10]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[11]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[12]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[13]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[14]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[15]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[16]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[17]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[18]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[19]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[1]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[2]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[3]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[4]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[5]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[6]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[7]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[8]"/>
+				<net name="u_image_process/u_Gesture_detch/fingertip_data[9]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[0]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[10]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[11]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[12]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[13]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[14]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[15]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[16]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[17]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[18]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[19]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[1]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[20]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[21]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[22]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[23]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[24]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[25]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[26]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[27]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[28]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[29]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[2]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[30]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[31]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[3]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[4]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[5]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[6]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[7]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[8]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[9]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[0]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[10]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[11]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[12]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[13]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[14]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[15]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[16]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[17]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[18]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[19]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[1]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[20]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[21]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[22]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[23]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[2]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[3]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[4]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[5]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[6]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[7]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[8]"/>
+				<net name="u_image_process/u_Hu_Invariant_moment/area[9]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[0]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[10]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[11]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[12]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[13]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[14]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[15]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[16]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[17]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[18]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[19]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[1]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[20]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[21]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[22]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[23]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[2]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[3]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[4]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[5]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[6]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[7]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[8]"/>
+				<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[9]"/>
+			</data_nets>
+			<watcher_nodes>
+				<group name="u_image_process/finger_data_Aera" radix="undec" state="collapse" op="dont_care" type="other">
+					<net name="u_image_process/finger_data_Aera[23]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[22]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[21]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[20]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[19]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[18]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[17]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[16]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[15]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[14]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[13]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[12]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[11]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[10]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[9]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[8]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[7]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[6]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[5]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[4]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[3]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[2]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[1]" type="other" trigger="enable"/>
+					<net name="u_image_process/finger_data_Aera[0]" type="other" trigger="enable"/>
+				</group>
+				<group name="u_image_process/Hu_1" radix="undec" state="collapse" op="dont_care" type="other">
+					<net name="u_image_process/Hu_1[31]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[30]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[29]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[28]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[27]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[26]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[25]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[24]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[23]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[22]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[21]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[20]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[19]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[18]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[17]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[16]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[15]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[14]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[13]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[12]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[11]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[10]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[9]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[8]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[7]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[6]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[5]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[4]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[3]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[2]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[1]" type="other" trigger="enable"/>
+					<net name="u_image_process/Hu_1[0]" type="other" trigger="enable"/>
+				</group>
+				<group name="u_image_process/u_Perimeter_aera/Perimeter_Aera" radix="undec" state="collapse" op="dont_care" type="other">
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[23]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[22]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[21]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[20]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[19]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[18]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[17]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[16]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[15]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[14]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[13]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[12]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[11]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[10]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[9]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[8]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[7]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[6]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[5]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[4]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[3]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[2]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[1]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Perimeter_aera/Perimeter_Aera[0]" type="other" trigger="enable"/>
+				</group>
+				<group name="u_image_process/u_Hu_Invariant_moment/Hu_2" radix="undec" state="collapse" op="dont_care" type="other">
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[31]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[30]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[29]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[28]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[27]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[26]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[25]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[24]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[23]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[22]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[21]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[20]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[19]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[18]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[17]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[16]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[15]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[14]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[13]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[12]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[11]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[10]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[9]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[8]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[7]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[6]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[5]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[4]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[3]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[2]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[1]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/Hu_2[0]" type="other" trigger="enable"/>
+				</group>
+				<group name="u_image_process/u_Gesture_detch/fingertip_data" radix="undec" state="collapse" op="dont_care" type="other">
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[19]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[18]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[17]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[16]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[15]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[14]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[13]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[12]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[11]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[10]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[9]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[8]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[7]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[6]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[5]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[4]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[3]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[2]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[1]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/fingertip_data[0]" type="other" trigger="enable"/>
+				</group>
+				<group name="u_image_process/u_Gesture_detch/area" radix="undec" state="collapse" op="dont_care" type="other">
+					<net name="u_image_process/u_Gesture_detch/area[19]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[18]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[17]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[16]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[15]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[14]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[13]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[12]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[11]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[10]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[9]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[8]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[7]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[6]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[5]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[4]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[3]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[2]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[1]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Gesture_detch/area[0]" type="other" trigger="enable"/>
+				</group>
+				<group name="u_image_process/u_Hu_Invariant_moment/area" radix="undec" state="collapse" op="dont_care" type="other">
+					<net name="u_image_process/u_Hu_Invariant_moment/area[23]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[22]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[21]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[20]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[19]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[18]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[17]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[16]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[15]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[14]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[13]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[12]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[11]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[10]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[9]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[8]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[7]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[6]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[5]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[4]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[3]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[2]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[1]" type="other" trigger="enable"/>
+					<net name="u_image_process/u_Hu_Invariant_moment/area[0]" type="other" trigger="enable"/>
+				</group>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				u_image_process/Hu_1[0] == low && u_image_process/Hu_1[10] == low && u_image_process/Hu_1[11] == low && u_image_process/Hu_1[12] == low && u_image_process/Hu_1[13] == low && u_image_process/Hu_1[14] == low && u_image_process/Hu_1[15] == low && u_image_process/Hu_1[16] == low && u_image_process/Hu_1[17] == low && u_image_process/Hu_1[18] == low && u_image_process/Hu_1[19] == low && u_image_process/Hu_1[1] == low && u_image_process/Hu_1[20] == low && u_image_process/Hu_1[21] == low && u_image_process/Hu_1[22] == low && u_image_process/Hu_1[23] == low && u_image_process/Hu_1[24] == low && u_image_process/Hu_1[25] == low && u_image_process/Hu_1[26] == low && u_image_process/Hu_1[27] == low && u_image_process/Hu_1[28] == low && u_image_process/Hu_1[29] == low && u_image_process/Hu_1[2] == low && u_image_process/Hu_1[30] == low && u_image_process/Hu_1[31] == low && u_image_process/Hu_1[3] == low && u_image_process/Hu_1[4] == low && u_image_process/Hu_1[5] == low && u_image_process/Hu_1[6] == low && u_image_process/Hu_1[7] == low && u_image_process/Hu_1[8] == low && u_image_process/Hu_1[9] == low && u_image_process/finger_data_Aera[0] == low && u_image_process/finger_data_Aera[10] == low && u_image_process/finger_data_Aera[11] == low && u_image_process/finger_data_Aera[12] == low && u_image_process/finger_data_Aera[13] == low && u_image_process/finger_data_Aera[14] == low && u_image_process/finger_data_Aera[15] == low && u_image_process/finger_data_Aera[16] == low && u_image_process/finger_data_Aera[17] == low && u_image_process/finger_data_Aera[18] == low && u_image_process/finger_data_Aera[19] == low && u_image_process/finger_data_Aera[1] == low && u_image_process/finger_data_Aera[20] == low && u_image_process/finger_data_Aera[21] == low && u_image_process/finger_data_Aera[22] == low && u_image_process/finger_data_Aera[23] == low && u_image_process/finger_data_Aera[2] == low && u_image_process/finger_data_Aera[3] == low && u_image_process/finger_data_Aera[4] == low && u_image_process/finger_data_Aera[5] == low && u_image_process/finger_data_Aera[6] == low && u_image_process/finger_data_Aera[7] == low && u_image_process/finger_data_Aera[8] == low && u_image_process/finger_data_Aera[9] == low && u_image_process/u_Gesture_detch/area[0] == low && u_image_process/u_Gesture_detch/area[10] == low && u_image_process/u_Gesture_detch/area[11] == low && u_image_process/u_Gesture_detch/area[12] == low && u_image_process/u_Gesture_detch/area[13] == low && u_image_process/u_Gesture_detch/area[14] == low && u_image_process/u_Gesture_detch/area[15] == low && u_image_process/u_Gesture_detch/area[16] == low && u_image_process/u_Gesture_detch/area[17] == low && u_image_process/u_Gesture_detch/area[18] == low && u_image_process/u_Gesture_detch/area[19] == low && u_image_process/u_Gesture_detch/area[1] == low && u_image_process/u_Gesture_detch/area[2] == low && u_image_process/u_Gesture_detch/area[3] == low && u_image_process/u_Gesture_detch/area[4] == low && u_image_process/u_Gesture_detch/area[5] == low && u_image_process/u_Gesture_detch/area[6] == low && u_image_process/u_Gesture_detch/area[7] == low && u_image_process/u_Gesture_detch/area[8] == low && u_image_process/u_Gesture_detch/area[9] == low && u_image_process/u_Gesture_detch/fingertip_data[0] == low && u_image_process/u_Gesture_detch/fingertip_data[10] == low && u_image_process/u_Gesture_detch/fingertip_data[11] == low && u_image_process/u_Gesture_detch/fingertip_data[12] == low && u_image_process/u_Gesture_detch/fingertip_data[13] == low && u_image_process/u_Gesture_detch/fingertip_data[14] == low && u_image_process/u_Gesture_detch/fingertip_data[15] == low && u_image_process/u_Gesture_detch/fingertip_data[16] == low && u_image_process/u_Gesture_detch/fingertip_data[17] == low && u_image_process/u_Gesture_detch/fingertip_data[18] == low && u_image_process/u_Gesture_detch/fingertip_data[19] == low && u_image_process/u_Gesture_detch/fingertip_data[1] == low && u_image_process/u_Gesture_detch/fingertip_data[2] == low && u_image_process/u_Gesture_detch/fingertip_data[3] == low && u_image_process/u_Gesture_detch/fingertip_data[4] == low && u_image_process/u_Gesture_detch/fingertip_data[5] == low && u_image_process/u_Gesture_detch/fingertip_data[6] == low && u_image_process/u_Gesture_detch/fingertip_data[7] == low && u_image_process/u_Gesture_detch/fingertip_data[8] == low && u_image_process/u_Gesture_detch/fingertip_data[9] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[0] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[10] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[11] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[12] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[13] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[14] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[15] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[16] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[17] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[18] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[19] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[1] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[20] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[21] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[22] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[23] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[24] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[25] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[26] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[27] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[28] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[29] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[2] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[30] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[31] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[3] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[4] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[5] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[6] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[7] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[8] == low && u_image_process/u_Hu_Invariant_moment/Hu_2[9] == low && u_image_process/u_Hu_Invariant_moment/area[0] == low && u_image_process/u_Hu_Invariant_moment/area[10] == low && u_image_process/u_Hu_Invariant_moment/area[11] == low && u_image_process/u_Hu_Invariant_moment/area[12] == low && u_image_process/u_Hu_Invariant_moment/area[13] == low && u_image_process/u_Hu_Invariant_moment/area[14] == low && u_image_process/u_Hu_Invariant_moment/area[15] == low && u_image_process/u_Hu_Invariant_moment/area[16] == low && u_image_process/u_Hu_Invariant_moment/area[17] == low && u_image_process/u_Hu_Invariant_moment/area[18] == low && u_image_process/u_Hu_Invariant_moment/area[19] == low && u_image_process/u_Hu_Invariant_moment/area[1] == low && u_image_process/u_Hu_Invariant_moment/area[20] == low && u_image_process/u_Hu_Invariant_moment/area[21] == low && u_image_process/u_Hu_Invariant_moment/area[22] == low && u_image_process/u_Hu_Invariant_moment/area[23] == low && u_image_process/u_Hu_Invariant_moment/area[2] == low && u_image_process/u_Hu_Invariant_moment/area[3] == low && u_image_process/u_Hu_Invariant_moment/area[4] == low && u_image_process/u_Hu_Invariant_moment/area[5] == low && u_image_process/u_Hu_Invariant_moment/area[6] == low && u_image_process/u_Hu_Invariant_moment/area[7] == low && u_image_process/u_Hu_Invariant_moment/area[8] == low && u_image_process/u_Hu_Invariant_moment/area[9] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[0] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[10] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[11] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[12] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[13] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[14] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[15] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[16] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[17] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[18] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[19] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[1] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[20] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[21] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[22] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[23] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[2] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[3] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[4] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[5] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[6] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[7] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[8] == low && u_image_process/u_Perimeter_aera/Perimeter_Aera[9] == low
+			</condition>
+			<log>
+				<data name="log: 2022/11/ 3 17:16:16" trigger_en="yes" trigger_pos="32" sample_num="128">
+					1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+				</data>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>

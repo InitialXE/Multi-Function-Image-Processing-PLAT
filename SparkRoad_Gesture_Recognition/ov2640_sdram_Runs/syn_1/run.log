@@ -1,0 +1,830 @@
+============================================================
+   Tang Dynasty, V5.6.119222
+      Copyright (c) 2012-2024 Anlogic Inc.
+   Executable = F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/bin/td.exe
+   Built at =   17:28:21 May 30 2024
+   Run by =     InitialXE
+   Run Date =   Tue Sep 23 21:06:20 2025
+
+   Run on =     INITIALXE-TX4
+============================================================
+RUN-1002 : start command "open_project ov2640_sdram.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/ip_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/ip_pll.v(91)
+HDL-1007 : analyze verilog file ../../al_ip/softfifo.v
+HDL-1007 : analyze verilog file ../../al_ip/fifo_1.v
+HDL-1007 : analyze verilog file ../../al_ip/fifo_2.v
+HDL-1007 : analyze verilog file ../../al_ip/Divder_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(401)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(408)
+HDL-1007 : undeclared symbol 'open_n4', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(415)
+HDL-1007 : undeclared symbol 'open_n5', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(422)
+HDL-1007 : undeclared symbol 'open_n6', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(429)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(436)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(443)
+HDL-1007 : undeclared symbol 'open_n9', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(450)
+HDL-1007 : undeclared symbol 'open_n10', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(457)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(464)
+HDL-1007 : undeclared symbol 'open_n12', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(471)
+HDL-1007 : undeclared symbol 'open_n13', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(478)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(485)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(492)
+HDL-1007 : undeclared symbol 'open_n16', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(499)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(506)
+HDL-1007 : undeclared symbol 'open_n18', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(513)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(520)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(527)
+HDL-1007 : undeclared symbol 'open_n21', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(534)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(541)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(548)
+HDL-1007 : undeclared symbol 'open_n24', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(555)
+HDL-1007 : undeclared symbol 'open_n25', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(562)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(569)
+HDL-1007 : undeclared symbol 'open_n27', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(576)
+HDL-1007 : undeclared symbol 'open_n28', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(583)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(590)
+HDL-1007 : undeclared symbol 'open_n30', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(597)
+HDL-1007 : undeclared symbol 'open_n31', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(604)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(611)
+HDL-1007 : undeclared symbol 'open_n33', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(618)
+HDL-1007 : undeclared symbol 'open_n34', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(625)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(632)
+HDL-1007 : undeclared symbol 'open_n36', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(639)
+HDL-1007 : undeclared symbol 'open_n37', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(646)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(653)
+HDL-1007 : undeclared symbol 'open_n39', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(660)
+HDL-1007 : undeclared symbol 'open_n40', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(667)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(674)
+HDL-1007 : undeclared symbol 'open_n42', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(681)
+HDL-1007 : undeclared symbol 'open_n43', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(688)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(695)
+HDL-1007 : undeclared symbol 'open_n45', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(702)
+HDL-1007 : undeclared symbol 'open_n46', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(709)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(716)
+HDL-1007 : undeclared symbol 'open_n48', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(723)
+HDL-1007 : undeclared symbol 'open_n49', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(730)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(737)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(2384)
+HDL-1007 : undeclared symbol 'open_n54', assumed default net type 'wire' in ../../al_ip/Divder_gate.v(2433)
+HDL-1007 : analyze verilog file ../../al_ip/Divider_32_gate.v
+HDL-1007 : undeclared symbol 'open_n0', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(159)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(164)
+HDL-1007 : undeclared symbol 'open_n6', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(522)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(529)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(536)
+HDL-1007 : undeclared symbol 'open_n9', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(543)
+HDL-1007 : undeclared symbol 'open_n10', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(550)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(557)
+HDL-1007 : undeclared symbol 'open_n12', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(564)
+HDL-1007 : undeclared symbol 'open_n13', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(571)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(578)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(585)
+HDL-1007 : undeclared symbol 'open_n16', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(592)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(599)
+HDL-1007 : undeclared symbol 'open_n18', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(606)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(613)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(620)
+HDL-1007 : undeclared symbol 'open_n21', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(627)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(634)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(641)
+HDL-1007 : undeclared symbol 'open_n24', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(648)
+HDL-1007 : undeclared symbol 'open_n25', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(655)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(662)
+HDL-1007 : undeclared symbol 'open_n27', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(669)
+HDL-1007 : undeclared symbol 'open_n28', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(676)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(683)
+HDL-1007 : undeclared symbol 'open_n30', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(690)
+HDL-1007 : undeclared symbol 'open_n31', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(697)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(704)
+HDL-1007 : undeclared symbol 'open_n33', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(711)
+HDL-1007 : undeclared symbol 'open_n34', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(718)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(725)
+HDL-1007 : undeclared symbol 'open_n36', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(732)
+HDL-1007 : undeclared symbol 'open_n37', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(739)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(746)
+HDL-1007 : undeclared symbol 'open_n39', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(753)
+HDL-1007 : undeclared symbol 'open_n40', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(760)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(767)
+HDL-1007 : undeclared symbol 'open_n42', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(774)
+HDL-1007 : undeclared symbol 'open_n43', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(781)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(788)
+HDL-1007 : undeclared symbol 'open_n45', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(795)
+HDL-1007 : undeclared symbol 'open_n46', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(802)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(809)
+HDL-1007 : undeclared symbol 'open_n48', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(816)
+HDL-1007 : undeclared symbol 'open_n49', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(823)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(830)
+HDL-1007 : undeclared symbol 'open_n51', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(837)
+HDL-1007 : undeclared symbol 'open_n52', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(844)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(851)
+HDL-1007 : undeclared symbol 'open_n54', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(858)
+HDL-1007 : undeclared symbol 'open_n55', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(865)
+HDL-1007 : undeclared symbol 'open_n56', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(872)
+HDL-1007 : undeclared symbol 'open_n57', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(879)
+HDL-1007 : undeclared symbol 'open_n58', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(886)
+HDL-1007 : undeclared symbol 'open_n59', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(893)
+HDL-1007 : undeclared symbol 'open_n60', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(900)
+HDL-1007 : undeclared symbol 'open_n61', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(907)
+HDL-1007 : undeclared symbol 'open_n62', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(914)
+HDL-1007 : undeclared symbol 'open_n63', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(921)
+HDL-1007 : undeclared symbol 'open_n64', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(928)
+HDL-1007 : undeclared symbol 'open_n65', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(935)
+HDL-1007 : undeclared symbol 'open_n66', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(942)
+HDL-1007 : undeclared symbol 'open_n67', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(949)
+HDL-1007 : undeclared symbol 'open_n68', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(956)
+HDL-1007 : undeclared symbol 'open_n69', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(963)
+HDL-1007 : undeclared symbol 'open_n70', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(970)
+HDL-1007 : undeclared symbol 'open_n73', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(3138)
+HDL-1007 : undeclared symbol 'open_n74', assumed default net type 'wire' in ../../al_ip/Divider_32_gate.v(3250)
+HDL-1007 : analyze verilog file ../../al_ip/Diver_64_gate.v
+HDL-1007 : undeclared symbol 'open_n0', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(270)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(275)
+HDL-1007 : undeclared symbol 'open_n6', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(890)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(897)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(904)
+HDL-1007 : undeclared symbol 'open_n9', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(911)
+HDL-1007 : undeclared symbol 'open_n10', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(918)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(925)
+HDL-1007 : undeclared symbol 'open_n12', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(932)
+HDL-1007 : undeclared symbol 'open_n13', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(939)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(946)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(953)
+HDL-1007 : undeclared symbol 'open_n16', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(960)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(967)
+HDL-1007 : undeclared symbol 'open_n18', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(974)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(981)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(988)
+HDL-1007 : undeclared symbol 'open_n21', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(995)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1002)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1009)
+HDL-1007 : undeclared symbol 'open_n24', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1016)
+HDL-1007 : undeclared symbol 'open_n25', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1023)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1030)
+HDL-1007 : undeclared symbol 'open_n27', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1037)
+HDL-1007 : undeclared symbol 'open_n28', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1044)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1051)
+HDL-1007 : undeclared symbol 'open_n30', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1058)
+HDL-1007 : undeclared symbol 'open_n31', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1065)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1072)
+HDL-1007 : undeclared symbol 'open_n33', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1079)
+HDL-1007 : undeclared symbol 'open_n34', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1086)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1093)
+HDL-1007 : undeclared symbol 'open_n36', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1100)
+HDL-1007 : undeclared symbol 'open_n37', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1107)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1114)
+HDL-1007 : undeclared symbol 'open_n39', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1121)
+HDL-1007 : undeclared symbol 'open_n40', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1128)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1135)
+HDL-1007 : undeclared symbol 'open_n42', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1142)
+HDL-1007 : undeclared symbol 'open_n43', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1149)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1156)
+HDL-1007 : undeclared symbol 'open_n45', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1163)
+HDL-1007 : undeclared symbol 'open_n46', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1170)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1177)
+HDL-1007 : undeclared symbol 'open_n48', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1184)
+HDL-1007 : undeclared symbol 'open_n49', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1191)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1198)
+HDL-1007 : undeclared symbol 'open_n51', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1205)
+HDL-1007 : undeclared symbol 'open_n52', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1212)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1219)
+HDL-1007 : undeclared symbol 'open_n54', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1226)
+HDL-1007 : undeclared symbol 'open_n55', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1233)
+HDL-1007 : undeclared symbol 'open_n56', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1240)
+HDL-1007 : undeclared symbol 'open_n57', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1247)
+HDL-1007 : undeclared symbol 'open_n58', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1254)
+HDL-1007 : undeclared symbol 'open_n59', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1261)
+HDL-1007 : undeclared symbol 'open_n60', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1268)
+HDL-1007 : undeclared symbol 'open_n61', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1275)
+HDL-1007 : undeclared symbol 'open_n62', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1282)
+HDL-1007 : undeclared symbol 'open_n63', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1289)
+HDL-1007 : undeclared symbol 'open_n64', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1296)
+HDL-1007 : undeclared symbol 'open_n65', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1303)
+HDL-1007 : undeclared symbol 'open_n66', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1310)
+HDL-1007 : undeclared symbol 'open_n67', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1317)
+HDL-1007 : undeclared symbol 'open_n68', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1324)
+HDL-1007 : undeclared symbol 'open_n69', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1331)
+HDL-1007 : undeclared symbol 'open_n70', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1338)
+HDL-1007 : undeclared symbol 'open_n71', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1345)
+HDL-1007 : undeclared symbol 'open_n72', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1352)
+HDL-1007 : undeclared symbol 'open_n73', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1359)
+HDL-1007 : undeclared symbol 'open_n74', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1366)
+HDL-1007 : undeclared symbol 'open_n75', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1373)
+HDL-1007 : undeclared symbol 'open_n76', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1380)
+HDL-1007 : undeclared symbol 'open_n77', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1387)
+HDL-1007 : undeclared symbol 'open_n78', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1394)
+HDL-1007 : undeclared symbol 'open_n79', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1401)
+HDL-1007 : undeclared symbol 'open_n80', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1408)
+HDL-1007 : undeclared symbol 'open_n81', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1415)
+HDL-1007 : undeclared symbol 'open_n82', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1422)
+HDL-1007 : undeclared symbol 'open_n83', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1429)
+HDL-1007 : undeclared symbol 'open_n84', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1436)
+HDL-1007 : undeclared symbol 'open_n85', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1443)
+HDL-1007 : undeclared symbol 'open_n86', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1450)
+HDL-1007 : undeclared symbol 'open_n87', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1457)
+HDL-1007 : undeclared symbol 'open_n88', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1464)
+HDL-1007 : undeclared symbol 'open_n89', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1471)
+HDL-1007 : undeclared symbol 'open_n90', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1478)
+HDL-1007 : undeclared symbol 'open_n91', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1485)
+HDL-1007 : undeclared symbol 'open_n92', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1492)
+HDL-1007 : undeclared symbol 'open_n93', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1499)
+HDL-1007 : undeclared symbol 'open_n94', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1506)
+HDL-1007 : undeclared symbol 'open_n95', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1513)
+HDL-1007 : undeclared symbol 'open_n96', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1520)
+HDL-1007 : undeclared symbol 'open_n97', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1527)
+HDL-1007 : undeclared symbol 'open_n98', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1534)
+HDL-1007 : undeclared symbol 'open_n99', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1541)
+HDL-1007 : undeclared symbol 'open_n100', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1548)
+HDL-1007 : undeclared symbol 'open_n101', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1555)
+HDL-1007 : undeclared symbol 'open_n102', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1562)
+HDL-1007 : undeclared symbol 'open_n103', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1569)
+HDL-1007 : undeclared symbol 'open_n104', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1576)
+HDL-1007 : undeclared symbol 'open_n105', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1583)
+HDL-1007 : undeclared symbol 'open_n106', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1590)
+HDL-1007 : undeclared symbol 'open_n107', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1597)
+HDL-1007 : undeclared symbol 'open_n108', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1604)
+HDL-1007 : undeclared symbol 'open_n109', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1611)
+HDL-1007 : undeclared symbol 'open_n110', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1618)
+HDL-1007 : undeclared symbol 'open_n111', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1625)
+HDL-1007 : undeclared symbol 'open_n112', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1632)
+HDL-1007 : undeclared symbol 'open_n113', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1639)
+HDL-1007 : undeclared symbol 'open_n114', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1646)
+HDL-1007 : undeclared symbol 'open_n115', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1653)
+HDL-1007 : undeclared symbol 'open_n116', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1660)
+HDL-1007 : undeclared symbol 'open_n117', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1667)
+HDL-1007 : undeclared symbol 'open_n118', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1674)
+HDL-1007 : undeclared symbol 'open_n119', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1681)
+HDL-1007 : undeclared symbol 'open_n120', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1688)
+HDL-1007 : undeclared symbol 'open_n121', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1695)
+HDL-1007 : undeclared symbol 'open_n122', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1702)
+HDL-1007 : undeclared symbol 'open_n123', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1709)
+HDL-1007 : undeclared symbol 'open_n124', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1716)
+HDL-1007 : undeclared symbol 'open_n125', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1723)
+HDL-1007 : undeclared symbol 'open_n126', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1730)
+HDL-1007 : undeclared symbol 'open_n127', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1737)
+HDL-1007 : undeclared symbol 'open_n128', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1744)
+HDL-1007 : undeclared symbol 'open_n129', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1751)
+HDL-1007 : undeclared symbol 'open_n130', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1758)
+HDL-1007 : undeclared symbol 'open_n131', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1765)
+HDL-1007 : undeclared symbol 'open_n132', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1772)
+HDL-1007 : undeclared symbol 'open_n133', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1779)
+HDL-1007 : undeclared symbol 'open_n134', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(1786)
+HDL-1007 : undeclared symbol 'open_n137', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(6011)
+HDL-1007 : undeclared symbol 'open_n138', assumed default net type 'wire' in ../../al_ip/Diver_64_gate.v(6368)
+HDL-1007 : analyze verilog file ../../al_ip/img_cache.v
+HDL-1007 : analyze verilog file ../../al_ip/ramfifo.v
+HDL-1007 : analyze verilog file ../../al_ip/sdram.v
+HDL-1007 : analyze verilog file ../../al_ip/ss_gate.v
+HDL-1007 : undeclared symbol 'open_n0', assumed default net type 'wire' in ../../al_ip/ss_gate.v(228)
+HDL-1007 : undeclared symbol 'open_n3', assumed default net type 'wire' in ../../al_ip/ss_gate.v(233)
+HDL-1007 : undeclared symbol 'open_n4', assumed default net type 'wire' in ../../al_ip/ss_gate.v(519)
+HDL-1007 : undeclared symbol 'open_n7', assumed default net type 'wire' in ../../al_ip/ss_gate.v(524)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in ../../al_ip/ss_gate.v(552)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/ss_gate.v(557)
+HDL-1007 : undeclared symbol 'open_n12', assumed default net type 'wire' in ../../al_ip/ss_gate.v(932)
+HDL-1007 : undeclared symbol 'open_n13', assumed default net type 'wire' in ../../al_ip/ss_gate.v(939)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/ss_gate.v(946)
+HDL-1007 : undeclared symbol 'open_n15', assumed default net type 'wire' in ../../al_ip/ss_gate.v(953)
+HDL-1007 : undeclared symbol 'open_n16', assumed default net type 'wire' in ../../al_ip/ss_gate.v(960)
+HDL-1007 : undeclared symbol 'open_n19', assumed default net type 'wire' in ../../al_ip/ss_gate.v(965)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in ../../al_ip/ss_gate.v(972)
+HDL-1007 : undeclared symbol 'open_n21', assumed default net type 'wire' in ../../al_ip/ss_gate.v(979)
+HDL-1007 : undeclared symbol 'open_n22', assumed default net type 'wire' in ../../al_ip/ss_gate.v(986)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/ss_gate.v(993)
+HDL-1007 : analyze verilog file ../../al_ip/g1_rom.v
+HDL-1007 : analyze verilog file ../../al_ip/g2_rom.v
+HDL-1007 : analyze verilog file ../../al_ip/g3_rom.v
+HDL-1007 : analyze verilog file ../../al_ip/g4_rom.v
+HDL-1007 : analyze verilog file ../../al_ip/g5_rom.v
+HDL-1007 : analyze verilog file ../../al_ip/g_none_rom.v
+HDL-1007 : analyze verilog file ../../al_ip/g0_rom.v
+HDL-1007 : analyze verilog file ../../RTL/camera_init.v
+HDL-1007 : undeclared symbol 'clk_div', assumed default net type 'wire' in ../../RTL/camera_init.v(74)
+HDL-1007 : analyze verilog file ../../RTL/camera_reader.v
+HDL-1007 : analyze verilog file ../../RTL/i2c_module.v
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/command.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/command.v(27)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/command.v' in ../../RTL/Sdram_Control_4Port/command.v(27)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/control_interface.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/control_interface.v' in ../../RTL/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/sdr_data_path.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/sdr_data_path.v' in ../../RTL/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v
+HDL-1007 : analyze included file ../../RTL/Sdram_Control_4Port/Sdram_Params.h in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : back to file '../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v' in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v
+HDL-1007 : analyze verilog file ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v
+HDL-1007 : analyze verilog file ../../RTL/Driver.v
+HDL-1007 : analyze verilog file ../../RTL/RGBYCbCr.v
+HDL-1007 : analyze verilog file ../../RTL/image_process.v
+HDL-1007 : undeclared symbol 'post3_img_Y', assumed default net type 'wire' in ../../RTL/image_process.v(211)
+HDL-1007 : undeclared symbol 'post3_frame_vsync', assumed default net type 'wire' in ../../RTL/image_process.v(213)
+HDL-1007 : undeclared symbol 'post3_frame_href', assumed default net type 'wire' in ../../RTL/image_process.v(214)
+HDL-1007 : undeclared symbol 'post3_frame_clken', assumed default net type 'wire' in ../../RTL/image_process.v(215)
+HDL-7007 CRITICAL-WARNING: 'post3_img_Y' is already implicitly declared on line 211 in ../../RTL/image_process.v(245)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_vsync' is already implicitly declared on line 213 in ../../RTL/image_process.v(246)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_href' is already implicitly declared on line 214 in ../../RTL/image_process.v(247)
+HDL-7007 CRITICAL-WARNING: 'post3_frame_clken' is already implicitly declared on line 215 in ../../RTL/image_process.v(248)
+HDL-5007 WARNING: redeclaration of ANSI port 'end_flag' is not allowed in ../../RTL/image_process.v(303)
+HDL-5007 WARNING: redeclaration of ANSI port 'x_min' is not allowed in ../../RTL/image_process.v(312)
+HDL-5007 WARNING: redeclaration of ANSI port 'x_max' is not allowed in ../../RTL/image_process.v(313)
+HDL-5007 WARNING: redeclaration of ANSI port 'y_min' is not allowed in ../../RTL/image_process.v(314)
+HDL-5007 WARNING: redeclaration of ANSI port 'y_max' is not allowed in ../../RTL/image_process.v(315)
+HDL-5007 WARNING: redeclaration of ANSI port 'fingertip_data' is not allowed in ../../RTL/image_process.v(319)
+HDL-5007 WARNING: identifier 'post_img_cb' is used before its declaration in ../../RTL/image_process.v(58)
+HDL-5007 WARNING: identifier 'post_img_cb' is used before its declaration in ../../RTL/image_process.v(62)
+HDL-5007 WARNING: identifier 'post_frame_clken' is used before its declaration in ../../RTL/image_process.v(68)
+HDL-5007 WARNING: identifier 'skin_img' is used before its declaration in ../../RTL/image_process.v(69)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../RTL/test_camera.v
+HDL-5007 WARNING: literal value 'h0x0a truncated to fit in 8 bits in ../../RTL/test_camera.v(253)
+HDL-1007 : analyze verilog file ../../RTL/Mode_Switch.v
+HDL-1007 : analyze verilog file ../../RTL/image_select.v
+HDL-1007 : undeclared symbol 'row_flag', assumed default net type 'wire' in ../../RTL/image_select.v(54)
+HDL-1007 : analyze verilog file ../../RTL/Median_Gray.v
+HDL-5007 WARNING: identifier 'mid_value' is used before its declaration in ../../RTL/Median_Gray.v(20)
+HDL-1007 : analyze verilog file ../../RTL/three_martix.v
+HDL-5007 WARNING: empty statement in sequential block in ../../RTL/three_martix.v(235)
+HDL-5007 WARNING: empty statement in sequential block in ../../RTL/three_martix.v(234)
+HDL-1007 : analyze verilog file ../../RTL/Median_Filter_3X3.v
+HDL-1007 : analyze verilog file ../../RTL/Sort3.v
+HDL-1007 : analyze verilog file ../../RTL/Sobel_Process.v
+HDL-1007 : undeclared symbol 'csi_pclk', assumed default net type 'wire' in ../../RTL/Sobel_Process.v(48)
+HDL-5007 WARNING: identifier 'sobel_value' is used before its declaration in ../../RTL/Sobel_Process.v(23)
+HDL-1007 : analyze verilog file ../../RTL/Caculate_Sobel.v
+HDL-5007 WARNING: identifier 'matrix_frame_vsync_r' is used before its declaration in ../../RTL/Caculate_Sobel.v(110)
+HDL-5007 WARNING: identifier 'matrix_frame_href_r' is used before its declaration in ../../RTL/Caculate_Sobel.v(111)
+HDL-5007 WARNING: identifier 'matrix_frame_clken_r' is used before its declaration in ../../RTL/Caculate_Sobel.v(112)
+HDL-1007 : analyze verilog file ../../RTL/Erosion_Detector.v
+HDL-1007 : analyze verilog file ../../RTL/Dilation_Detector.v
+HDL-5007 WARNING: redeclaration of ANSI port 'post_img_Bit4' is not allowed in ../../RTL/Dilation_Detector.v(79)
+HDL-1007 : undeclared symbol 'post_frame_href', assumed default net type 'wire' in ../../RTL/Dilation_Detector.v(109)
+HDL-1007 : analyze verilog file ../../RTL/vga_display.v
+HDL-1007 : analyze verilog file ../../RTL/Hu_Invariant_moment.v
+HDL-1007 : undeclared symbol 'row_flag', assumed default net type 'wire' in ../../RTL/Hu_Invariant_moment.v(41)
+HDL-5007 WARNING: redeclaration of ANSI port 'X_0' is not allowed in ../../RTL/Hu_Invariant_moment.v(186)
+HDL-5007 WARNING: redeclaration of ANSI port 'Y_0' is not allowed in ../../RTL/Hu_Invariant_moment.v(187)
+HDL-5007 WARNING: identifier 'end_flag' is used before its declaration in ../../RTL/Hu_Invariant_moment.v(61)
+HDL-5007 WARNING: identifier 'M_00' is used before its declaration in ../../RTL/Hu_Invariant_moment.v(62)
+HDL-5007 WARNING: identifier 'ok_flag_n02' is used before its declaration in ../../RTL/Hu_Invariant_moment.v(230)
+HDL-1007 : analyze verilog file ../../RTL/Perimeter_aera.v
+HDL-1007 : undeclared symbol 'row_flag', assumed default net type 'wire' in ../../RTL/Perimeter_aera.v(39)
+HDL-5007 WARNING: redeclaration of ANSI port 'end_flag' is not allowed in ../../RTL/Perimeter_aera.v(59)
+HDL-5007 WARNING: identifier 'ok_flag_Perimeter_Aera' is used before its declaration in ../../RTL/Perimeter_aera.v(100)
+HDL-5007 WARNING: identifier 'quotient' is used before its declaration in ../../RTL/Perimeter_aera.v(102)
+HDL-1007 : analyze verilog file ../../RTL/Gesture_recognition.v
+HDL-1007 : analyze verilog file ../../RTL/Gesture_detch.v
+HDL-1007 : analyze verilog file ../../RTL/Uart_Send.v
+HDL-1007 : analyze verilog file ../../RTL/seg_4.v
+HDL-1007 : analyze verilog file ../../RTL/result_display.v
+RUN-1001 : Project manager successfully analyzed 49 source files.
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "elaborate -top test_camera"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : elaborate module test_camera in ../../RTL/test_camera.v(14)
+HDL-1007 : port 'post_frame_vsync' remains unconnected for this instance in ../../RTL/image_process.v(158)
+HDL-1007 : port 'post_frame_hsync' remains unconnected for this instance in ../../RTL/image_process.v(158)
+HDL-1007 : port 'post_frame_clken' remains unconnected for this instance in ../../RTL/image_process.v(158)
+HDL-1007 : port 'post_frame_vsync' remains unconnected for this instance in ../../RTL/image_process.v(173)
+HDL-1007 : port 'post_frame_hsync' remains unconnected for this instance in ../../RTL/image_process.v(173)
+HDL-1007 : port 'post_frame_clken' remains unconnected for this instance in ../../RTL/image_process.v(173)
+HDL-1007 : port 'length' remains unconnected for this instance in ../../RTL/image_process.v(320)
+HDL-1007 : port 'en' remains unconnected for this instance in ../../RTL/image_process.v(320)
+HDL-1007 : elaborate module image_process in ../../RTL/image_process.v(1)
+HDL-1007 : elaborate module RGBYCbCr in ../../RTL/RGBYCbCr.v(1)
+HDL-1007 : port 'rd_en_dly2' remains unconnected for this instance in ../../RTL/Median_Gray.v(35)
+HDL-1007 : port 'cnt_rd' remains unconnected for this instance in ../../RTL/Median_Gray.v(35)
+HDL-1007 : elaborate module Median_Gray in ../../RTL/Median_Gray.v(1)
+HDL-1007 : port 'empty_flag' remains unconnected for this instance in ../../RTL/three_martix.v(270)
+HDL-1007 : port 'full_flag' remains unconnected for this instance in ../../RTL/three_martix.v(270)
+HDL-1007 : elaborate module three_martix in ../../RTL/three_martix.v(1)
+HDL-1007 : elaborate module fifo_1 in ../../al_ip/fifo_1.v(14)
+HDL-1007 : elaborate module EG_LOGIC_FIFO(DATA_WIDTH_W=8,DATA_WIDTH_R=8,DATA_DEPTH_R=1024,F=1024,RESETMODE="SYNC",ENDIAN="BIG") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(176)
+HDL-1007 : elaborate module fifo_2 in ../../al_ip/fifo_2.v(14)
+HDL-1007 : elaborate module Median_Filter_3X3 in ../../RTL/Median_Filter_3X3.v(1)
+HDL-1007 : elaborate module Sort3 in ../../RTL/Sort3.v(1)
+HDL-1007 : elaborate module Sobel_Process in ../../RTL/Sobel_Process.v(1)
+HDL-1007 : elaborate module Caculate_Sobel in ../../RTL/Caculate_Sobel.v(1)
+HDL-5007 WARNING: using initial value of 'THRESHOLD' since it is never assigned in ../../RTL/Caculate_Sobel.v(100)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 1 for port 'cnt_rd' in ../../RTL/Sobel_Process.v(79)
+HDL-5007 WARNING: net 'csi_pclk' does not have a driver in ../../RTL/Sobel_Process.v(48)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 8 for port 'pre_sobel_img_Y' in ../../RTL/image_process.v(211)
+HDL-5007 WARNING: port 'csi_pclk' is not connected on this instance in ../../RTL/Erosion_Detector.v(29)
+HDL-1007 : port 'rd_en_dly2' remains unconnected for this instance in ../../RTL/Erosion_Detector.v(29)
+HDL-1007 : port 'cnt_rd' remains unconnected for this instance in ../../RTL/Erosion_Detector.v(29)
+HDL-1007 : elaborate module Erosion_Detector in ../../RTL/Erosion_Detector.v(1)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p11' in ../../RTL/Erosion_Detector.v(40)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p12' in ../../RTL/Erosion_Detector.v(41)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p13' in ../../RTL/Erosion_Detector.v(42)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p21' in ../../RTL/Erosion_Detector.v(43)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p22' in ../../RTL/Erosion_Detector.v(44)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p23' in ../../RTL/Erosion_Detector.v(45)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p31' in ../../RTL/Erosion_Detector.v(46)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p32' in ../../RTL/Erosion_Detector.v(47)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p33' in ../../RTL/Erosion_Detector.v(48)
+HDL-5007 WARNING: input port 'csi_pclk' is not connected on this instance in ../../RTL/Erosion_Detector.v(29)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : port 'rd_en_dly2' remains unconnected for this instance in ../../RTL/Dilation_Detector.v(29)
+HDL-1007 : port 'cnt_rd' remains unconnected for this instance in ../../RTL/Dilation_Detector.v(29)
+HDL-1007 : elaborate module Dilation_Detector in ../../RTL/Dilation_Detector.v(1)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 8 for port 'image_input' in ../../RTL/Dilation_Detector.v(35)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p11' in ../../RTL/Dilation_Detector.v(40)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p12' in ../../RTL/Dilation_Detector.v(41)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p13' in ../../RTL/Dilation_Detector.v(42)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p21' in ../../RTL/Dilation_Detector.v(43)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p22' in ../../RTL/Dilation_Detector.v(44)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p23' in ../../RTL/Dilation_Detector.v(45)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p31' in ../../RTL/Dilation_Detector.v(46)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p32' in ../../RTL/Dilation_Detector.v(47)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'matrix_p33' in ../../RTL/Dilation_Detector.v(48)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : elaborate module Hu_Invariant_moment in ../../RTL/Hu_Invariant_moment.v(1)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Divder_gate.v(397)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Divder_gate.v(2380)
+HDL-1007 : elaborate module Divider in ../../al_ip/Divder_gate.v(5)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1000,EQN="(B*A)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01,EQN="(~D*~C*~B*~A)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11001101,EQN="~(~B*~(~C*~A))") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000000,EQN="(C*B*~A)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01100010000,EQN="(~B*(~(A)*C*~(D)+~(A)*~(C)*D+A*~(C)*D))") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01010101000000,EQN="(~A*(D@(C*B)))") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b0100001100,EQN="(~C*(~(A)*B*~(D)+A*B*~(D)+~(A)*~(B)*D))") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10000000,EQN="(C*B*A)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000000000,EQN="(D*~C*~B*A)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000011110000010000000000,EQN="(~C*(~(A)*B*D*~(E)+~(A)*~(B)*~(D)*E+A*~(B)*~(D)*E+~(A)*B*~(D)*E+A*B*~(D)*E+~(A)*~(B)*D*E))") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10111000,EQN="(C*~(A)*~(B)+C*A*~(B)+~(C)*A*B+C*A*B)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_DFF_0 in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(206)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="A_LE_B_CARRY") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="A_LE_B") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10111011101110001000101110001000,EQN="((D*~(E)*~(C)+D*E*~(C)+~(D)*E*C+D*E*C)*~(A)*~(B)+(D*~(E)*~(C)+D*E*~(C)+~(D)*E*C+D*E*C)*A*~(B)+~((D*~(E)*~(C)+D*E*~(C)+~(D)*E*C+D*E*C))*A*B+(D*~(E)*~(C)+D*E*~(C)+~(D)*E*C+D*E*C)*A*B)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB_CARRY") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(72)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Divder_gate.v(399)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Divder_gate.v(2382)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 24 for port 'quotient' in ../../RTL/Hu_Invariant_moment.v(160)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 24 for port 'quotient' in ../../RTL/Hu_Invariant_moment.v(174)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Diver_64_gate.v(271)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Diver_64_gate.v(886)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Diver_64_gate.v(6007)
+HDL-1007 : elaborate module Diver_64 in ../../al_ip/Diver_64_gate.v(5)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="ADD") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="ADD_CARRY") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11011100111111001111110011011100,EQN="~(~B*~(C*~(A*~(E@D))))") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000001100000011000000010000,EQN="(C*~B*~(A*~(E@D)))") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0100,EQN="(B*~A)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01,EQN="(~E*~D*~C*~B*~A)") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/al_lmacro.v(13)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Diver_64_gate.v(273)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Diver_64_gate.v(888)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Diver_64_gate.v(6009)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 64 for port 'quotient' in ../../RTL/Hu_Invariant_moment.v(254)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 64 for port 'quotient' in ../../RTL/Hu_Invariant_moment.v(268)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 64 for port 'quotient' in ../../RTL/Hu_Invariant_moment.v(282)
+HDL-1007 : elaborate module Perimeter_aera in ../../RTL/Perimeter_aera.v(1)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 24 for port 'numerator' in ../../RTL/Perimeter_aera.v(116)
+HDL-1007 : elaborate module Gesture_recognition in ../../RTL/Gesture_recognition.v(1)
+HDL-1007 : elaborate module Gesture_detch in ../../RTL/Gesture_detch.v(1)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Divider_32_gate.v(160)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Divider_32_gate.v(518)
+HDL-5007 WARNING: port 'b' is not connected on this instance in ../../al_ip/Divider_32_gate.v(3134)
+HDL-1007 : elaborate module Divider_32 in ../../al_ip/Divider_32_gate.v(5)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Divider_32_gate.v(162)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Divider_32_gate.v(520)
+HDL-5007 WARNING: input port 'b' is not connected on this instance in ../../al_ip/Divider_32_gate.v(3136)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 32 for port 'quotient' in ../../RTL/image_process.v(347)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 12 for port 'x_min' in ../../RTL/test_camera.v(164)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 12 for port 'x_max' in ../../RTL/test_camera.v(165)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 12 for port 'y_min' in ../../RTL/test_camera.v(166)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 12 for port 'y_max' in ../../RTL/test_camera.v(167)
+HDL-1007 : elaborate module Mode_Switch in ../../RTL/Mode_Switch.v(1)
+HDL-1007 : elaborate module image_select in ../../RTL/image_select.v(1)
+HDL-7007 CRITICAL-WARNING: 'mode' should be on the sensitivity list in ../../RTL/image_select.v(72)
+HDL-7007 CRITICAL-WARNING: 'original_image' should be on the sensitivity list in ../../RTL/image_select.v(74)
+HDL-7007 CRITICAL-WARNING: 'Gray_rgb565_img' should be on the sensitivity list in ../../RTL/image_select.v(78)
+HDL-7007 CRITICAL-WARNING: 'Median_img_gray_565' should be on the sensitivity list in ../../RTL/image_select.v(82)
+HDL-7007 CRITICAL-WARNING: 'display_number_area' should be on the sensitivity list in ../../RTL/image_select.v(86)
+HDL-7007 CRITICAL-WARNING: 'Sobel_img_565' should be on the sensitivity list in ../../RTL/image_select.v(88)
+HDL-7007 CRITICAL-WARNING: 'original_image' should be on the sensitivity list in ../../RTL/image_select.v(93)
+HDL-7007 CRITICAL-WARNING: 'Sobel_Erosion_img_565' should be on the sensitivity list in ../../RTL/image_select.v(98)
+HDL-7007 CRITICAL-WARNING: 'display_number_area' should be on the sensitivity list in ../../RTL/image_select.v(102)
+HDL-7007 CRITICAL-WARNING: 'Sobel_Erosion_Dilation_img_565' should be on the sensitivity list in ../../RTL/image_select.v(104)
+HDL-7007 Similar messages will be suppressed.
+HDL-5007 WARNING: latch inferred for net 'show_data[15]' in ../../RTL/image_select.v(71)
+HDL-1007 : elaborate module result_display in ../../RTL/result_display.v(2)
+HDL-1007 : elaborate module g0_rom in ../../al_ip/g0_rom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",REGMODE_A="OUTREG",INIT_FILE="mif/g0.mif",IMPLEMENT="32K") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(1066)
+HDL-1007 : elaborate module g1_rom in ../../al_ip/g1_rom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",REGMODE_A="OUTREG",INIT_FILE="mif/g1.mif",IMPLEMENT="32K") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(1066)
+HDL-1007 : elaborate module g2_rom in ../../al_ip/g2_rom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",REGMODE_A="OUTREG",INIT_FILE="mif/g2.mif",IMPLEMENT="32K") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(1066)
+HDL-1007 : elaborate module g3_rom in ../../al_ip/g3_rom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",REGMODE_A="OUTREG",INIT_FILE="mif/g3.mif",IMPLEMENT="32K") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(1066)
+HDL-1007 : elaborate module g4_rom in ../../al_ip/g4_rom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",REGMODE_A="OUTREG",INIT_FILE="mif/g4.mif") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(1066)
+HDL-1007 : elaborate module g5_rom in ../../al_ip/g5_rom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",REGMODE_A="OUTREG",INIT_FILE="mif/g5.mif") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(1066)
+HDL-1007 : elaborate module g_none_rom in ../../al_ip/g_none_rom.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",REGMODE_A="OUTREG",INIT_FILE="mif/g_none.mif") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(1066)
+HDL-1007 : elaborate module vga_display(y_min=12'b0110010,x_min=12'b010010110,y_max=12'b0101011110,x_max=12'b0111000010) in ../../RTL/vga_display.v(14)
+HDL-5007 WARNING: latch inferred for net 'display_data[15]' in ../../RTL/vga_display.v(44)
+HDL-1007 : elaborate module Uart_Send in ../../RTL/Uart_Send.v(1)
+HDL-1007 : elaborate module seg_4 in ../../RTL/seg_4.v(13)
+HDL-1007 : elaborate module ip_pll in ../../al_ip/ip_pll.v(26)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="24.000000",FBCLK_DIV=4,CLKC0_DIV=5,CLKC1_DIV=5,CLKC2_DIV=12,CLKC3_DIV=20,CLKC4_DIV=120,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC1_FPHASE=2,CLKC0_CPHASE=4,CLKC1_CPHASE=5,CLKC2_CPHASE=11,CLKC3_CPHASE=19,CLKC4_CPHASE=119,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(964)
+HDL-1007 : elaborate module camera_init in ../../RTL/camera_init.v(14)
+HDL-1007 : elaborate module i2c_module in ../../RTL/i2c_module.v(2)
+HDL-1007 : elaborate module Driver in ../../RTL/Driver.v(11)
+HDL-1007 : elaborate module camera_reader in ../../RTL/camera_reader.v(14)
+HDL-5007 WARNING: port 'INIT_ACK' is not connected on this instance in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-5007 WARNING: port 'clk' is not connected on this instance in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(251)
+HDL-5007 WARNING: port 'clk' is not connected on this instance in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(267)
+HDL-1007 : elaborate module Sdram_Control_4Port in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(1)
+HDL-1007 : elaborate module control_interface in ../../RTL/Sdram_Control_4Port/control_interface.v(1)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'CMD' in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(166)
+HDL-1007 : elaborate module command in ../../RTL/Sdram_Control_4Port/command.v(1)
+HDL-1007 : elaborate module sdr_data_path in ../../RTL/Sdram_Control_4Port/sdr_data_path.v(1)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v(86)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v(86)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v(86)
+HDL-1007 : elaborate module Sdram_WR_FIFO in ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v(39)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../al_ip/softfifo.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../al_ip/softfifo.v(226)
+HDL-1007 : elaborate module softfifo in ../../al_ip/softfifo.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_softfifo(ADDR_WIDTH=10) in ../../al_ip/softfifo.v(250)
+HDL-1007 : elaborate module ram_infer_softfifo(DATAWIDTH_A=16,ADDRWIDTH_A=10,DATAWIDTH_B=16,ADDRWIDTH_B=10) in ../../al_ip/softfifo.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../al_ip/softfifo.v(398)
+HDL-5007 WARNING: input port 'dib[15]' is not connected on this instance in ../../al_ip/softfifo.v(231)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 10 for port 'wrusedw' in ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v(93)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 10 for port 'rdusedw' in ../../RTL/Sdram_Control_4Port/Sdram_WR_FIFO.v(98)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(86)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(86)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(86)
+HDL-1007 : elaborate module Sdram_RD_FIFO in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(39)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 10 for port 'wrusedw' in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(93)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 10 for port 'rdusedw' in ../../RTL/Sdram_Control_4Port/Sdram_RD_FIFO.v(98)
+HDL-1007 : elaborate module sdram in ../../al_ip/sdram.v(14)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/arch/eagle_macro.v(755)
+HDL-5007 WARNING: input port 'INIT_ACK' is not connected on this instance in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-5007 WARNING: input port 'clk' is not connected on this instance in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(251)
+HDL-5007 WARNING: input port 'clk' is not connected on this instance in ../../RTL/Sdram_Control_4Port/Sdram_Control_4Port.v(267)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 21 for port 'WR1_MAX_ADDR' in ../../RTL/test_camera.v(334)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 21 for port 'WR2_MAX_ADDR' in ../../RTL/test_camera.v(345)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 21 for port 'RD1_MAX_ADDR' in ../../RTL/test_camera.v(355)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 21 for port 'RD2_MAX_ADDR' in ../../RTL/test_camera.v(367)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is test_camera
+HDL-1100 : Inferred 1 RAMs.
+RUN-1002 : start command "read_adc ../../SparkRoad.adc"
+RUN-1002 : start command "set_pin_assignment  Led[0]   LOCATION = M3; "
+RUN-1002 : start command "set_pin_assignment  Led[10]   LOCATION = T8; "
+RUN-1002 : start command "set_pin_assignment  Led[11]   LOCATION = T9; "
+RUN-1002 : start command "set_pin_assignment  Led[12]   LOCATION = M7; "
+RUN-1002 : start command "set_pin_assignment  Led[13]   LOCATION = R12; "
+RUN-1002 : start command "set_pin_assignment  Led[14]   LOCATION = T12; "
+RUN-1002 : start command "set_pin_assignment  Led[15]   LOCATION = T13; "
+RUN-1002 : start command "set_pin_assignment  Led[1]   LOCATION = M4; "
+RUN-1002 : start command "set_pin_assignment  Led[2]   LOCATION = N3; "
+RUN-1002 : start command "set_pin_assignment  Led[3]   LOCATION = N4; "
+RUN-1002 : start command "set_pin_assignment  Led[4]   LOCATION = M5; "
+RUN-1002 : start command "set_pin_assignment  Led[5]   LOCATION = P4; "
+RUN-1002 : start command "set_pin_assignment  Led[6]   LOCATION = N5; "
+RUN-1002 : start command "set_pin_assignment  Led[7]   LOCATION = P5; "
+RUN-1002 : start command "set_pin_assignment  Led[8]   LOCATION = R7; "
+RUN-1002 : start command "set_pin_assignment  Led[9]   LOCATION = T7; "
+RUN-1002 : start command "set_pin_assignment  Switch[0]   LOCATION = T4; "
+RUN-1002 : start command "set_pin_assignment  Switch[10]   LOCATION = P9; "
+RUN-1002 : start command "set_pin_assignment  Switch[11]   LOCATION = N9; "
+RUN-1002 : start command "set_pin_assignment  Switch[12]   LOCATION = T14; "
+RUN-1002 : start command "set_pin_assignment  Switch[13]   LOCATION = R14; "
+RUN-1002 : start command "set_pin_assignment  Switch[14]   LOCATION = T15; "
+RUN-1002 : start command "set_pin_assignment  Switch[15]   LOCATION = R15; "
+RUN-1002 : start command "set_pin_assignment  Switch[1]   LOCATION = R5; "
+RUN-1002 : start command "set_pin_assignment  Switch[2]   LOCATION = T5; "
+RUN-1002 : start command "set_pin_assignment  Switch[3]   LOCATION = T6; "
+RUN-1002 : start command "set_pin_assignment  Switch[4]   LOCATION = M6; "
+RUN-1002 : start command "set_pin_assignment  Switch[5]   LOCATION = P6; "
+RUN-1002 : start command "set_pin_assignment  Switch[6]   LOCATION = N6; "
+RUN-1002 : start command "set_pin_assignment  Switch[7]   LOCATION = P8; "
+RUN-1002 : start command "set_pin_assignment  Switch[8]   LOCATION = N8; "
+RUN-1002 : start command "set_pin_assignment  Switch[9]   LOCATION = R9; "
+RUN-1002 : start command "set_pin_assignment  cam_data[0]   LOCATION = H15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[1]   LOCATION = J16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[2]   LOCATION = K16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[3]   LOCATION = K15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[4]   LOCATION = G14; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[5]   LOCATION = H16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[6]   LOCATION = G16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[7]   LOCATION = H13; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_href   LOCATION = F15; "
+RUN-1002 : start command "set_pin_assignment  cam_pclk   LOCATION = K12; "
+RUN-1002 : start command "set_pin_assignment  cam_pwdn   LOCATION = F14; "
+RUN-1002 : start command "set_pin_assignment  cam_rst   LOCATION = F13; "
+RUN-1002 : start command "set_pin_assignment  cam_soic   LOCATION = D16; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  cam_soid   LOCATION = D14; "
+RUN-1002 : start command "set_pin_assignment  cam_vsync   LOCATION = E15; "
+RUN-1002 : start command "set_pin_assignment  cam_xclk   LOCATION = J12; "
+RUN-1002 : start command "set_pin_assignment  clk_24m   LOCATION = K14; "
+RUN-1002 : start command "set_pin_assignment  rst_n   LOCATION = G11; "
+RUN-1002 : start command "set_pin_assignment  sm_bit[0]   LOCATION = B1; "
+RUN-1002 : start command "set_pin_assignment  sm_bit[1]   LOCATION = C3; "
+RUN-1002 : start command "set_pin_assignment  sm_bit[2]   LOCATION = C2; "
+RUN-1002 : start command "set_pin_assignment  sm_bit[3]   LOCATION = F3; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[0]   LOCATION = E3; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[1]   LOCATION = B3; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[2]   LOCATION = F4; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[3]   LOCATION = E4; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[4]   LOCATION = F5; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[5]   LOCATION = D3; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[6]   LOCATION = B2; "
+RUN-1002 : start command "set_pin_assignment  sm_seg[7]   LOCATION = A2; "
+RUN-1002 : start command "set_pin_assignment  tx   LOCATION = E16; "
+RUN-1002 : start command "set_pin_assignment  vga_b[0]   LOCATION = G1; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_b[1]   LOCATION = F1; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_b[2]   LOCATION = F2; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_b[3]   LOCATION = E1; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_b[4]   LOCATION = G3; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_b[5]   LOCATION = E2; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_b[6]   LOCATION = D1; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_b[7]   LOCATION = C1; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  vga_clk   LOCATION = H2; "
+RUN-1002 : start command "set_pin_assignment  vga_g[0]   LOCATION = L1; "
+RUN-1002 : start command "set_pin_assignment  vga_g[1]   LOCATION = K2; "
+RUN-1002 : start command "set_pin_assignment  vga_g[2]   LOCATION = K1; "
+RUN-1002 : start command "set_pin_assignment  vga_g[3]   LOCATION = J1; "
+RUN-1002 : start command "set_pin_assignment  vga_g[4]   LOCATION = H3; "
+RUN-1002 : start command "set_pin_assignment  vga_g[5]   LOCATION = J6; "
+RUN-1002 : start command "set_pin_assignment  vga_g[6]   LOCATION = H1; "
+RUN-1002 : start command "set_pin_assignment  vga_g[7]   LOCATION = H5; "
+RUN-1002 : start command "set_pin_assignment  vga_hsync   LOCATION = J3; "
+RUN-1002 : start command "set_pin_assignment  vga_r[0]   LOCATION = L5; "
+RUN-1002 : start command "set_pin_assignment  vga_r[1]   LOCATION = L3; "
+RUN-1002 : start command "set_pin_assignment  vga_r[2]   LOCATION = M2; "
+RUN-1002 : start command "set_pin_assignment  vga_r[3]   LOCATION = M1; "
+RUN-1002 : start command "set_pin_assignment  vga_r[4]   LOCATION = L4; "
+RUN-1002 : start command "set_pin_assignment  vga_r[5]   LOCATION = K5; "
+RUN-1002 : start command "set_pin_assignment  vga_r[6]   LOCATION = K3; "
+RUN-1002 : start command "set_pin_assignment  vga_r[7]   LOCATION = K6; "
+RUN-1002 : start command "set_pin_assignment  vga_vsync   LOCATION = J4; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "export_db ov2640_sdram_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file F:/Software/SoftwareData/Anlogic/TD_5.6.5_Release_119.222/license/Anlogic.lic
+RUN-8418 ERROR: License expired!
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20250923_210620.log"
+RUN-1001 : Backing up run's log file succeed.

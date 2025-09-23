@@ -1,0 +1,102 @@
+set_pin_assignment	{ Led[0] }	{ LOCATION = M3; }
+set_pin_assignment	{ Led[10] }	{ LOCATION = T8; }
+set_pin_assignment	{ Led[11] }	{ LOCATION = T9; }
+set_pin_assignment	{ Led[12] }	{ LOCATION = M7; }
+set_pin_assignment	{ Led[13] }	{ LOCATION = R12; }
+set_pin_assignment	{ Led[14] }	{ LOCATION = T12; }
+set_pin_assignment	{ Led[15] }	{ LOCATION = T13; }
+set_pin_assignment	{ Led[1] }	{ LOCATION = M4; }
+set_pin_assignment	{ Led[2] }	{ LOCATION = N3; }
+set_pin_assignment	{ Led[3] }	{ LOCATION = N4; }
+set_pin_assignment	{ Led[4] }	{ LOCATION = M5; }
+set_pin_assignment	{ Led[5] }	{ LOCATION = P4; }
+set_pin_assignment	{ Led[6] }	{ LOCATION = N5; }
+set_pin_assignment	{ Led[7] }	{ LOCATION = P5; }
+set_pin_assignment	{ Led[8] }	{ LOCATION = R7; }
+set_pin_assignment	{ Led[9] }	{ LOCATION = T7; }
+set_pin_assignment	{ Switch[0] }	{ LOCATION = T4; }
+set_pin_assignment	{ Switch[10] }	{ LOCATION = P9; }
+set_pin_assignment	{ Switch[11] }	{ LOCATION = N9; }
+set_pin_assignment	{ Switch[12] }	{ LOCATION = T14; }
+set_pin_assignment	{ Switch[13] }	{ LOCATION = R14; }
+set_pin_assignment	{ Switch[14] }	{ LOCATION = T15; }
+set_pin_assignment	{ Switch[15] }	{ LOCATION = R15; }
+set_pin_assignment	{ Switch[1] }	{ LOCATION = R5; }
+set_pin_assignment	{ Switch[2] }	{ LOCATION = T5; }
+set_pin_assignment	{ Switch[3] }	{ LOCATION = T6; }
+set_pin_assignment	{ Switch[4] }	{ LOCATION = M6; }
+set_pin_assignment	{ Switch[5] }	{ LOCATION = P6; }
+set_pin_assignment	{ Switch[6] }	{ LOCATION = N6; }
+set_pin_assignment	{ Switch[7] }	{ LOCATION = P8; }
+set_pin_assignment	{ Switch[8] }	{ LOCATION = N8; }
+set_pin_assignment	{ Switch[9] }	{ LOCATION = R9; }
+set_pin_assignment	{ cam_data[0] }	{ LOCATION = H15; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[1] }	{ LOCATION = J16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[2] }	{ LOCATION = K16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[3] }	{ LOCATION = K15; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[4] }	{ LOCATION = G14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[5] }	{ LOCATION = H16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[6] }	{ LOCATION = G16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[7] }	{ LOCATION = H13; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_href }	{ LOCATION = F15; }
+set_pin_assignment	{ cam_pclk }	{ LOCATION = K12; }
+set_pin_assignment	{ cam_pwdn }	{ LOCATION = F14; }
+set_pin_assignment	{ cam_rst }	{ LOCATION = F13; }
+set_pin_assignment	{ cam_soic }	{ LOCATION = D16; PULLTYPE = PULLUP; }
+set_pin_assignment	{ cam_soid }	{ LOCATION = D14; }
+set_pin_assignment	{ cam_vsync }	{ LOCATION = E15; }
+set_pin_assignment	{ cam_xclk }	{ LOCATION = J12; }
+set_pin_assignment	{ clk_24m }	{ LOCATION = K14; }
+set_pin_assignment	{ rst_n }	{ LOCATION = G11; }
+set_pin_assignment	{ sm_bit[0] }	{ LOCATION = B1; }
+set_pin_assignment	{ sm_bit[1] }	{ LOCATION = C3; }
+set_pin_assignment	{ sm_bit[2] }	{ LOCATION = C2; }
+set_pin_assignment	{ sm_bit[3] }	{ LOCATION = F3; }
+set_pin_assignment	{ sm_seg[0] }	{ LOCATION = E3; }
+set_pin_assignment	{ sm_seg[1] }	{ LOCATION = B3; }
+set_pin_assignment	{ sm_seg[2] }	{ LOCATION = F4; }
+set_pin_assignment	{ sm_seg[3] }	{ LOCATION = E4; }
+set_pin_assignment	{ sm_seg[4] }	{ LOCATION = F5; }
+set_pin_assignment	{ sm_seg[5] }	{ LOCATION = D3; }
+set_pin_assignment	{ sm_seg[6] }	{ LOCATION = B2; }
+set_pin_assignment	{ sm_seg[7] }	{ LOCATION = A2; }
+set_pin_assignment	{ tx }	{ LOCATION = E16; }
+set_pin_assignment	{ vga_b[0] }	{ LOCATION = G1; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_b[1] }	{ LOCATION = F1; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_b[2] }	{ LOCATION = F2; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_b[3] }	{ LOCATION = E1; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_b[4] }	{ LOCATION = G3; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_b[5] }	{ LOCATION = E2; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_b[6] }	{ LOCATION = D1; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_b[7] }	{ LOCATION = C1; SLEWRATE = FAST; }
+set_pin_assignment	{ vga_clk }	{ LOCATION = H2; }
+set_pin_assignment	{ vga_g[0] }	{ LOCATION = L1; }
+set_pin_assignment	{ vga_g[1] }	{ LOCATION = K2; }
+set_pin_assignment	{ vga_g[2] }	{ LOCATION = K1; }
+set_pin_assignment	{ vga_g[3] }	{ LOCATION = J1; }
+set_pin_assignment	{ vga_g[4] }	{ LOCATION = H3; }
+set_pin_assignment	{ vga_g[5] }	{ LOCATION = J6; }
+set_pin_assignment	{ vga_g[6] }	{ LOCATION = H1; }
+set_pin_assignment	{ vga_g[7] }	{ LOCATION = H5; }
+set_pin_assignment	{ vga_hsync }	{ LOCATION = J3; }
+set_pin_assignment	{ vga_r[0] }	{ LOCATION = L5; }
+set_pin_assignment	{ vga_r[1] }	{ LOCATION = L3; }
+set_pin_assignment	{ vga_r[2] }	{ LOCATION = M2; }
+set_pin_assignment	{ vga_r[3] }	{ LOCATION = M1; }
+set_pin_assignment	{ vga_r[4] }	{ LOCATION = L4; }
+set_pin_assignment	{ vga_r[5] }	{ LOCATION = K5; }
+set_pin_assignment	{ vga_r[6] }	{ LOCATION = K3; }
+set_pin_assignment	{ vga_r[7] }	{ LOCATION = K6; }
+set_pin_assignment	{ vga_vsync }	{ LOCATION = J4; }
+
+
+
+
+
+
+
+#set_pin_assignment {LCD_DEN} { LOCATION = virtualIO;  }
+#set_pin_assignment {LCD_PWM} { LOCATION = virtualIO;  }
+
+
+
